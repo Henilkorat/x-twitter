@@ -1,0 +1,311 @@
+<!doctype html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Home / X</title>
+  <link rel="shortcut icon" href="https://x.com/favicon.ico" type="image/x-icon">
+  <link href="./css/output.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
+
+</head>
+
+<body class="bg-black text-white">
+  <div class="main   flex ">
+    <div class="first w-1/6 flex flex-col items-center md:items-end    ">
+      
+      <div class="sidebar md:pr-5 top-0  sticky flex-col md:right-6 space-y-5 pt-6 ">
+        <img src="Assets/logo.svg"
+          class=" w-8 invert hover:bg-gray-200 hover:rounded-full hover:p-1 hover:cursor-pointer" alt="logo">
+        <img src="Assets/home.svg"
+          class="w-8 invert  hover:bg-gray-200 hover:rounded-full hover:p-1 hover:cursor-pointer" alt="home">
+        <img src="Assets/search.svg"
+          class="w-8 invert  hover:bg-gray-200 hover:rounded-full hover:p-1 hover:cursor-pointer" alt="search">
+        <img src="Assets/notification.svg"
+          class="w-8 invert  hover:bg-gray-200 hover:rounded-full hover:p-1 hover:cursor-pointer" alt="notification">
+        <img src="Assets/message.svg"
+          class="w-8 invert  hover:bg-gray-200 hover:rounded-full hover:p-1 hover:cursor-pointer" alt="message">
+        <img src="Assets/grok.svg"
+          class="w-8 invert  hover:bg-gray-200 hover:rounded-full hover:p-1 hover:cursor-pointer" alt="grok">
+        <img src="Assets/profile.svg"
+          class="w-8 invert  hover:bg-gray-200 hover:rounded-full hover:p-1 hover:cursor-pointer" alt="profile">
+        <img src="Assets/more.svg"
+          class="w-8 invert  hover:bg-gray-200 hover:rounded-full hover:p-1 hover:cursor-pointer" alt="more">
+        <img src="Assets/post.svg" class="w-9  hover:bg-gray-200 hover:rounded-full hover:p-1 hover:cursor-pointer"
+          alt="post">
+        <img src="Assets/user.png" class="w-11  pt-9   hover:cursor-pointer  " alt="user">
+      
+      </div>
+    </div>
+    <div class="second w-5/6  md:w-3/6 border-[0.5px] border-x-gray-700 border-y-black  ">
+     
+      <div class="sticky top-0 backdrop-blur-3xl opacity-80 bg-black">
+      <div class="top flex relative ">
+
+        <div class="w-[11%] h-1 bg-blue-500 absolute bottom-0 left-[19%] rounded-full "></div>
+        <div class="flex py-3 w-1/2 justify-center font-semibold hover:bg-gray-950 cursor-pointer">For you </div>
+
+        <div class="flex w-1/2 justify-center font-semibold py-3 hover:bg-gray-950 cursor-pointer">Following</div>
+      </div></div>
+      <hr class="border-gray-700">
+      <!-- post-section -->
+      <div class="postSec flex">
+        <img class="w-12 m-3 h-12" src="Assets/user.png" alt="user">
+        <input class=" my-3 outline-none bg-black text-gray-900 py-2 w-3/4 text-xl" type="text"
+          placeholder="What is happening?!">
+      </div>
+
+
+      <div class="blueicons flex gap-3 my-3 relative ml-[11%]">
+        <span class="material-symbols-outlined p text-sky-500  cursor-pointer rounded-full hover:bg-gray-950">
+          image
+        </span>
+        <span class="material-symbols-outlined text-sky-500  cursor-pointer rounded-full hover:bg-gray-950">
+          gif_box
+        </span>
+        <span class="material-symbols-outlined text-sky-500  cursor-pointer rounded-full hover:bg-gray-950">
+          list
+        </span>
+        <span class="material-symbols-outlined text-sky-500  cursor-pointer rounded-full hover:bg-gray-950">
+          sentiment_satisfied
+        </span>
+        <span class="material-symbols-outlined text-sky-500  cursor-pointer rounded-full hover:bg-gray-950">
+          calendar_clock
+        </span>
+        <span class="material-symbols-outlined text-sky-500  cursor-pointer rounded-full hover:bg-gray-950">
+          location_on
+        </span>
+        <button
+          class="bg-gray-400 text-black py-1 px-4 rounded-full font-bold bottom-[0.1%]  absolute right-8 ">Post</button>
+      </div>
+
+      <hr class="border-gray-700  mt-3">
+
+      <div class="posts  ">
+        <div class="post">
+          <div class="user-post m-3 flex ">
+            <img class="w-10 h-10 rounded-full" src="Assets/Musk.jpg " alt="profile">
+            <div class="user-name ">
+              <span class="px-2 font-bold">Elon Musk</span>
+              <span class="text-gray-500"> @elonmusk · 10h</span>
+              <div class="pl-2">Testing Grok 3 int4 inference</div>
+            </div>
+          </div>
+          <img class="ml-[9%]  w-[88%] border border-gray-700 rounded-2xl" src="Assets/post-img.jpg" alt="post-img">
+          <div class="icons flex w-[88%]  ml-[9%] overflow-hidden  my-2">
+            <div class="left-icons flex   md:space-x-[12%]">
+              <div class="comment px-1 flex md:space-x-2">
+                <span class="material-symbols-outlined text-gray-400 ">
+                  mode_comment
+                </span>
+                <span class="text-gray-400">240</span>
+              </div>
+              <div class="repost px-1 flex md:space-x-2">
+                <img class="w-6" src="Assets/repost.svg" alt="repost">
+                <span class="text-gray-400">4.0K</span>
+              </div>
+              <div class="like px-1  flex md:space-x-2">
+                <span class="material-symbols-outlined text-gray-400">
+                  favorite
+                </span>
+                <span class="text-gray-400">35.2K</span>
+              </div>
+              <div class="view px-1 flex md:space-x-2">
+                <span class="material-symbols-outlined text-gray-400 ">
+                  bar_chart
+                </span>
+                <span class="text-gray-400">95K</span>
+              </div>
+            </div>
+            <div class="right-icon flex md:ml-[39%] sm:pl-2 md:space-x-2">
+              <span class="material-symbols-outlined text-gray-400 ">
+                bookmark
+              </span>
+              <span class="material-symbols-outlined text-gray-400">
+                upload
+              </span>
+            </div>
+          </div>
+        </div>
+        <hr class="border-gray-700">
+        <div class="post">
+          <div class="user-post m-3 flex ">
+            <img class="w-10 h-10 rounded-full" src="Assets/Musk.jpg " alt="profile">
+            <div class="user-name ">
+              <span class="px-2 font-bold">Elon Musk</span>
+              <span class="text-gray-500"> @elonmusk · 10h</span>
+              <div class="pl-2">Testing Grok 3 int4 inference</div>
+            </div>
+          </div>
+          <img class="ml-[9%]  w-[88%] border border-gray-700 rounded-2xl" src="Assets/post-img.jpg" alt="post-img">
+          <div class="icons flex w-[88%]  ml-[9%] overflow-hidden  my-2">
+            <div class="left-icons flex   md:space-x-[12%]">
+              <div class="comment px-1 flex md:space-x-2">
+                <span class="material-symbols-outlined text-gray-400 ">
+                  mode_comment
+                </span>
+                <span class="text-gray-400">240</span>
+              </div>
+              <div class="repost px-1 flex md:space-x-2">
+                <img class="w-6" src="Assets/repost.svg" alt="repost">
+                <span class="text-gray-400">4.0K</span>
+              </div>
+              <div class="like px-1  flex md:space-x-2">
+                <span class="material-symbols-outlined text-gray-400">
+                  favorite
+                </span>
+                <span class="text-gray-400">35.2K</span>
+              </div>
+              <div class="view px-1 flex md:space-x-2">
+                <span class="material-symbols-outlined text-gray-400 ">
+                  bar_chart
+                </span>
+                <span class="text-gray-400">95K</span>
+              </div>
+            </div>
+            <div class="right-icon flex md:ml-[39%] sm:pl-2 md:space-x-2">
+              <span class="material-symbols-outlined text-gray-400 ">
+                bookmark
+              </span>
+              <span class="material-symbols-outlined text-gray-400">
+                upload
+              </span>
+            </div>
+          </div>
+        </div>
+
+        <hr class="border-gray-700">
+
+        <div class="post">
+          <div class="user-post m-3 flex ">
+            <img class="w-10 h-10 rounded-full" src="Assets/Musk.jpg " alt="profile">
+            <div class="user-name ">
+              <span class="px-2 font-bold">Elon Musk</span>
+              <span class="text-gray-500"> @elonmusk · 10h</span>
+              <div class="pl-2">Testing Grok 3 int4 inference</div>
+            </div>
+          </div>
+          <img class="ml-[9%]  w-[88%] border border-gray-700 rounded-2xl" src="Assets/post-img.jpg" alt="post-img">
+          <div class="icons flex w-[88%]  ml-[9%] overflow-hidden  my-2">
+            <div class="left-icons flex   md:space-x-[12%]">
+              <div class="comment px-1 flex md:space-x-2">
+                <span class="material-symbols-outlined text-gray-400 ">
+                  mode_comment
+                </span>
+                <span class="text-gray-400">240</span>
+              </div>
+              <div class="repost px-1 flex md:space-x-2">
+                <img class="w-6" src="Assets/repost.svg" alt="repost">
+                <span class="text-gray-400">4.0K</span>
+              </div>
+              <div class="like px-1  flex md:space-x-2">
+                <span class="material-symbols-outlined text-gray-400">
+                  favorite
+                </span>
+                <span class="text-gray-400">35.2K</span>
+              </div>
+              <div class="view px-1 flex md:space-x-2">
+                <span class="material-symbols-outlined text-gray-400 ">
+                  bar_chart
+                </span>
+                <span class="text-gray-400">95K</span>
+              </div>
+            </div>
+            <div class="right-icon flex md:ml-[39%] sm:pl-2 md:space-x-2">
+              <span class="material-symbols-outlined text-gray-400 ">
+                bookmark
+              </span>
+              <span class="material-symbols-outlined text-gray-400">
+                upload
+              </span>
+            </div>
+          </div>
+        </div>
+        <hr class="border-gray-700">
+
+
+      </div>
+    </div>
+    <div class="third  w-0 md:w-2/6  hidden md:block">
+     <div class="sticky top-0">
+      <div class="search mx-10 my-2 relative">
+        <!-- Search Icon -->
+        <svg xmlns="http://www.w3.org/2000/svg"
+          class="absolute top-1/2 left-3 transform -translate-y-1/2 w-5 h-5 text-gray-400" fill="none"
+          viewBox="0 0 24 24" stroke="currentColor">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+            d="M11 4a7 7 0 107 7 7 7 0 00-7-7zM21 21l-4.35-4.35" />
+        </svg>
+
+        <!-- Search Input -->
+        <input type="search"
+          class="border  bg-black  border-gray-800   w-3/4 pl-10 py-2 rounded-full placeholder-gray-400"
+          placeholder="Search" name="search" id="search">
+      </div>
+      <div class="whats mx-10 my-3 border  w-[63%]  border-gray-800 rounded-3xl  pl-4 py-2">
+        <h1 class="text-xl font-bold ">What’s happening
+        </h1>
+        <div class="items my-2">
+          <div class="item1 hover:bg-gray-950 my-2">
+            <div class="text-gray-400 font-light text-sm">Trending in India</div>
+            <div class="font-bold">#ChampionsTrophy</div>
+            <div class="text-gray-400 font-light text-sm">23K posts</div>
+          </div>
+          <div class="item2 hover:bg-gray-950 my-2">
+            <div class="text-gray-400 font-light text-sm">Trending in India</div>
+            <div class="font-bold">#Kumbhmela</div>
+            <div class="text-gray-400 font-light text-sm ">1M posts</div>
+          </div>
+          <div class="item3 hover:bg-gray-950 my-2">
+            <div class="text-gray-400 font-light text-sm">Trending in India</div>
+            <div class="font-bold">#IITianBaba</div>
+            <div class="text-gray-400 font-light text-sm">79K posts</div>
+          </div>
+        </div>
+      </div>
+      <div class="fsugg mx-10 my-3 border  w-[63%]  border-gray-800 rounded-3xl  pl-4 py-2">
+        <h1 class="text-xl font-bold ">Who to follow
+        </h1>
+        <div class="sfollow1 flex pt-4 relative hover:bg-gray-950">
+          <img src="Assets/premanandji.jpg" class="w-12  rounded-full hover:cursor-pointer  " alt="user">
+          <div class="text pl-1">
+            <div class="font-bold">Bhajan Marg</div>
+            <div class="text-gray-500">@RadhaKeliKunj</div>
+          </div>
+          <div
+            class="fol-btn border bg-white text-black absolute rounded-3xl right-2 px-3 py-1 font-semibold hover:bg-slate-200 ">
+            <button>Follow</button>
+          </div>
+        </div>
+        <div class="sfollow2 flex pt-3 relative hover:bg-gray-950">
+          <img src="Assets/Modi.jpg" class="w-12 rounded-full  hover:cursor-pointer  " alt="user">
+          <div class="text pl-1">
+            <div class="font-bold">PMO India</div>
+            <div class="text-gray-500">@PMOIndia</div>
+          </div>
+          <div
+            class="fol-btn border bg-white text-black absolute rounded-3xl right-2 px-3 py-1 font-semibold hover:bg-slate-200">
+            <button>Follow</button>
+          </div>
+        </div>
+        <div class="sfollow3 flex pt-3 relative hover:bg-gray-950">
+          <img src="Assets/Musk.jpg" class="w-12  rounded-full           hover:cursor-pointer  " alt="user">
+          <div class="text pl-1">
+            <div class="font-bold">Elon Musk</div>
+            <div class="text-gray-500">@elonmusk</div>
+          </div>
+          <div
+            class="fol-btn border bg-white text-black absolute rounded-3xl right-2 px-3 py-1 font-semibold hover:bg-slate-200">
+            <button>Follow</button>
+          </div>
+        </div>
+      </div>
+
+     </div>
+    </div>
+  </div>
+
+</body>
+
+</html>
